@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: blue;
+}
+
+/* test 3 color */
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  body {
+    background-color: teal;
+  }
+
+  h1 {
+    color: rosybrown;
+  }
+}
+
+/* test 2 color */
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  body {
+    background-color: grey;
+  }
+
+  h1 {
+    color: crimson;
+  }
+}
+
+/* test 1 color */
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+
+  h1 {
+    color: navy;
+  }
+}
+
+
+
+
