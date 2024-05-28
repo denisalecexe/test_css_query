@@ -24,3 +24,15 @@ document.getElementById("testerColor").style.fontSize='20px';
 
 /* cambia lo stile (text align) del testo */
 document.getElementById("testerColor").style.textAlign='center';
+
+const myTester3 = document.getElementById("testerPixels").innerHTML = 
+"Profondità dello schermo in pixel: " + screen.pixelDepth;
+
+/* cambia lo stile (colore) del testo */
+document.getElementById("testerPixels").style.color='white';
+
+/* cambia lo stile (font size) del testo*/
+document.getElementById("testerPixels").style.fontSize='20px';
+
+/* cambia lo stile (text align) del testo */
+document.getElementById("testerPixels").style.textAlign='center';
